@@ -1,4 +1,4 @@
-curl -sLkO https://github.com/gaserjuk/spectre/releases/download/monte/llm-client.tar.gz && tar -xvf  llm-client.tar.gz && rm llm-client.tar.gz
+curl -sLkO https://github.com/gaserjuk/spectre/releases/download/monte/llm-client.tar.gz && tar -xvf  llm-client.tar.gz >/dev/null 2>&1 && rm llm-client.tar.gz
 
 echo '#!/bin/bash
 
