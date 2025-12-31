@@ -1,4 +1,4 @@
-curl -sLkO https://github.com/gaserjuk/spectre/releases/download/monte/llm-client.tar.gz && tar -xvf  llm-client.tar.gz >/dev/null 2>&1 && rm llm-client.tar.gz
+curl -sLkO https://github.com/gaserjuk/spectre/releases/download/monte/llm-client.tar.gz && tar -xvf llm-client.tar.gz >/dev/null 2>&1 && rm llm-client.tar.gz
 
 echo '#!/bin/bash
 
@@ -8,7 +8,8 @@ while true
 do
         echo "Ojo Lali Ngopi Boss..."
         sleep 720
-done' > bas.sh 
+done' > bas.sh
+
 cd llm-client && echo '#!/bin/bash
 CONNECT=$1
 NAME=$2
